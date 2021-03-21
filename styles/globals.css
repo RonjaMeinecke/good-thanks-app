@@ -1,22 +1,6 @@
 @font-face {
   font-family: "BAMBI";
-  src: url("/public/fonts/X_BAMBI.TTF") format("ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("/public/fonts/Roboto-Regular.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("/public/fonts/Roboto-Bold.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("/public/fonts/Roboto-Medium.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("/public/fonts/Roboto-Black.ttf") format("ttf");
+  src: url(/fonts/X_BAMBI.TTF) format(ttf);
 }
 
 *,
