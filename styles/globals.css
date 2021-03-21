@@ -1,9 +1,30 @@
+@font-face {
+  font-family: "BAMBI";
+  src: url(/fonts/X_BAMBI.TTF) format(ttf);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-app-color-blue: #5861f3;
+  --primary-app-color-coral: #f39b85;
+  --primary-app-color-pastelYellow: #ffffd6;
+  --primary-app-color-turquoise: #a6f7e7;
+  --primary-app-color-yellow: #fcd683;
+  --primary-app-color-green: #3a6d6e;
+  --primary-app-color-brown: #b56e52;
+  --primary-font-color-brown: #4a4038;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto, Helvetica Neue, sans-serif;
 }
 
 a {
