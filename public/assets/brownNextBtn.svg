@@ -1,0 +1,10 @@
+<svg id="brownNextBtn" xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101">
+  <g id="Ellipse_16" data-name="Ellipse 16" fill="#b56e52" stroke="#fffed8" stroke-width="1">
+    <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+    <circle cx="50.5" cy="50.5" r="50" fill="none"/>
+  </g>
+  <g id="Gruppe_8" data-name="Gruppe 8" transform="translate(39.015 45.601)">
+    <line id="Linie_36" data-name="Linie 36" x1="20.817" transform="translate(0.714 5.366)" fill="none" stroke="#fffed8" stroke-linecap="round" stroke-width="1"/>
+    <path id="Pfad_24" data-name="Pfad 24" d="M3919.586,579.336l-6.086,5.251,6.086,5.482" transform="translate(-3913.5 -579.336)" fill="none" stroke="#fffed8" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>
