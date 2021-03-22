@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "BAMBI";
-  src: url(/fonts/X_BAMBI.TTF) format(ttf);
+  font-family: "X_BAMBI";
+  src: url(/fonts/X_BAMBI.woff) format("woff");
 }
 
 *,
@@ -15,7 +15,8 @@
   --primary-app-color-pastelYellow: #ffffd6;
   --primary-app-color-turquoise: #a6f7e7;
   --primary-app-color-yellow: #fcd683;
-  --primary-app-color-green: #3a6d6e;
+  --primary-app-color-darkGreen: #3a6d6e;
+  --primary-app-color-green: #6fb1aa;
   --primary-app-color-brown: #b56e52;
   --primary-font-color-brown: #4a4038;
 }
