@@ -3,7 +3,7 @@ import styles from "./Logo.module.css";
 export type LogoProps = {
   backgroundColor: string;
   fontColor: string;
-  outlineColor: string;
+  outlineColor?: string;
 };
 
 function Logo({ backgroundColor, fontColor, outlineColor }: LogoProps) {

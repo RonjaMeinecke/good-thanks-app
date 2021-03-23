@@ -1,0 +1,32 @@
+.DoubleForm {
+  transform: translateX(-3.125rem);
+}
+
+.Question {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1rem;
+}
+
+.Logo {
+  transform: translateX(1.875rem) translateY(-0.688rem);
+}
+
+.SingleForm {
+  transform: translateX(13.438rem) translateY(1.875rem);
+}
+
+.PepTalk {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 0.875rem;
+}
+
+.PepTalkSerif1 {
+  font-family: "X_BAMBI", serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+.PepTalkSerif2 {
+  font-family: "X_BAMBI", serif;
+  font-size: 1.813rem;
+  letter-spacing: 0.14rem;
+}
