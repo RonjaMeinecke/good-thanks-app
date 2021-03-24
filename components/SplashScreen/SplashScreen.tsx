@@ -7,7 +7,7 @@ export type SplashScreenProps = {
 
 function SplashScreen({ fontColor }: SplashScreenProps) {
   return (
-    <div className={styles.SplashScreenContainer}>
+    <div>
       <svg
         className={styles.DoubleForm}
         xmlns="http://www.w3.org/2000/svg"
