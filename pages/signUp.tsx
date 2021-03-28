@@ -1,7 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import Logo from "../components/Logo/Logo";
-import styles from "./index.module.css";
+import SignUp from "../components/SignUp/SignUp";
+import styles from "./signUpPage.module.css";
 
 export default function Home() {
   return (
@@ -17,11 +18,14 @@ export default function Home() {
 
       <main className={styles.Container}>
         <div className={styles.Logo}>
-          <p>PAGE WILL FOLLOW</p>
           <Logo
-            fontColor="var(--primary-font-color-brown)"
-            backgroundColor="var(--primary-app-color-turquoise)"
+            fontColor="var(--primary-app-color-pastelYellow)"
+            backgroundColor="var(--primary-app-color-green)"
+            outlineColor="var(--primary-app-color-pastelYellow)"
           />
+          <div className={styles.signUpComponent}>
+            <SignUp />
+          </div>
         </div>
       </main>
     </>

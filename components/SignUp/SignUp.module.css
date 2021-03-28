@@ -6,16 +6,6 @@
   transform: translateY(23rem) translateX(4.2rem);
 }
 
-input:focus {
-  outline: none;
-}
-
-::placeholder {
-  color: var(--primary-app-color-pastelYellow);
-  opacity: 0.3;
-  font-size: 0.8rem;
-}
-
 .inputName,
 .inputEmail,
 .inputPassword,
