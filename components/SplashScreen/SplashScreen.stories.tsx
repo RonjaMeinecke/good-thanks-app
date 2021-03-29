@@ -11,5 +11,5 @@ const Template: Story<SplashScreenProps> = (args) => <SplashScreen {...args} />;
 
 export const SplashScreenComponent = Template.bind({});
 SplashScreenComponent.args = {
-  fontColor: "var(--primary-font-color-brown)",
+  fontColor: "var(--app-font-color-brown)",
 };

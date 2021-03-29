@@ -10,15 +10,11 @@
 }
 
 :root {
-  --primary-app-color-blue: #5861f3;
-  --primary-app-color-coral: #f39b85;
-  --primary-app-color-pastelYellow: #ffffd6;
-  --primary-app-color-turquoise: #a6f7e7;
-  --primary-app-color-yellow: #fcd683;
-  --primary-app-color-darkGreen: #3a6d6e;
-  --primary-app-color-green: #6fb1aa;
-  --primary-app-color-brown: #b56e52;
-  --primary-font-color-brown: #4a4038;
+  --app-color-blue: #5861f3;
+  --app-color-coral: #f39b85;
+  --app-color-pastelYellow: #ffffd6;
+  --app-color-turquoise: #a6f7e7;
+  --app-font-color-brown: #4a4038;
 }
 
 html,

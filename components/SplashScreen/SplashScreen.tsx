@@ -49,8 +49,8 @@ function SplashScreen({ fontColor }: SplashScreenProps) {
       </svg>
       <div className={styles.Logo}>
         <Logo
-          fontColor="var(--primary-font-color-brown)"
-          backgroundColor="var(--primary-app-color-turquoise)"
+          fontColor="var(--app-font-color-brown)"
+          backgroundColor="var(--app-color-turquoise)"
         />
       </div>
       <svg
