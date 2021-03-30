@@ -11,13 +11,13 @@ const Template: Story<LogoProps> = (args) => <Logo {...args} />;
 
 export const SplashScreen = Template.bind({});
 SplashScreen.args = {
-  backgroundColor: "var(--primary-app-color-turquoise)",
-  fontColor: "var(--primary-font-color-brown)",
+  backgroundColor: "var(--app-color-turquoise)",
+  fontColor: "var(--app-font-color-brown)",
 };
 
 export const Header = Template.bind({});
 Header.args = {
-  backgroundColor: "var(--primary-app-color-green)",
-  fontColor: "var(--primary-app-color-pastelYellow)",
-  outlineColor: "var(--primary-app-color-pastelYellow)",
+  backgroundColor: "var(--app-color-blue)",
+  fontColor: "var(--app-color-pastelYellow)",
+  outlineColor: "var(--app-color-pastelYellow)",
 };
