@@ -10,7 +10,6 @@ function Header({ backgroundColor, outlineColor }: HeaderProps) {
     <svg
       className={styles.header}
       xmlns="http://www.w3.org/2000/svg"
-      s
       width="398.392"
       height="79.627"
       viewBox="0 0 398.392 79.627"
