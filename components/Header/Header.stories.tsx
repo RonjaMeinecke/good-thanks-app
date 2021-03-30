@@ -11,12 +11,12 @@ const Template: Story<HeaderProps> = (args) => <Header {...args} />;
 
 export const BlueHeader = Template.bind({});
 BlueHeader.args = {
-  backgroundColor: "var(--primary-app-color-blue)",
-  outlineColor: "var(--primary-app-color-pastelYellow)",
+  backgroundColor: "var(--app-color-blue)",
+  outlineColor: "var(--app-color-pastelYellow)",
 };
 
 export const CoralHeader = Template.bind({});
 CoralHeader.args = {
-  backgroundColor: "var(--primary-app-color-coral)",
-  outlineColor: "var(--primary-app-color-pastelYellow)",
+  backgroundColor: "var(--app-color-coral)",
+  outlineColor: "var(--app-color-pastelYellow)",
 };
