@@ -1,0 +1,9 @@
+.logo {
+  transform: translateY(-5.3rem) translateX(6.5rem);
+}
+.userIcon {
+  transform: translateY(-5.45rem) translateX(-4.5rem);
+}
+.menu {
+  transform: translateY(-5.45rem) translateX(9.4rem);
+}
