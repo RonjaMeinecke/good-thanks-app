@@ -2,6 +2,22 @@
   font-family: "X_BAMBI";
   src: url(/fonts/X_BAMBI.woff) format("woff");
 }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/fonts/Roboto-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(/fonts/Roboto-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(/fonts/Roboto-Thin.woff) format("woff");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(/fonts/Roboto-Light.woff) format("woff");
+}
 
 *,
 *::after,
