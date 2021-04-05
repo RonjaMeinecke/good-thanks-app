@@ -1,0 +1,44 @@
+.container {
+  background-color: var(--app-color-blue);
+  opacity: 95%;
+  overflow: hidden;
+  height: 100vh;
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.organicForm {
+  transform: translateX(-10rem) translateY(-16rem);
+}
+
+.XBtn {
+  transform: translateX(0.4rem) translateY(-55rem);
+}
+
+.search {
+  transform: translateX(14.9rem) translateY(-57.45rem);
+}
+
+.headline {
+  font-family: "X_BAMBI", serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-variant: normal;
+  letter-spacing: 0.3rem;
+  color: var(--app-color-pastelYellow);
+  outline: none;
+  transform: translateY(-55rem) translateX(9.6rem);
+}
+
+.list {
+  list-style-type: none;
+  font-family: "Roboto-Light", sans-serif;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: var(--app-color-pastelYellow);
+  text-align: right;
+  margin: 1.12rem;
+  line-height: 4.5rem;
+  transform: translateY(-54.5rem);
+}
