@@ -34,3 +34,38 @@
   transform: translateX(-9rem) translateY(3.1rem);
   position: relative;
 }
+
+.textContainer {
+  position: absolute;
+  top: 16rem;
+  left: 1.2rem;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+.my {
+  position: relative;
+  font-family: "X_BAMBI", serif;
+  font-weight: normal;
+  color: var(--app-color-blue);
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.habits {
+  position: relative;
+  font-family: "X_BAMBI", serif;
+  color: var(--app-color-blue);
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding: 0;
+  letter-spacing: 0.1rem;
+  grid-area: 1 / 1 / 2 / 2;
+  transform: translateX(1rem) translateY(0.1rem);
+}

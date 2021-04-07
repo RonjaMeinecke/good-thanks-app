@@ -13,6 +13,10 @@ export default function Home() {
         <h1 className={styles.greeting1}>hello</h1>
         <h2 className={styles.greeting2}>beautiful</h2>
         <img className={styles.shapes} src="/assets/shapesBG.svg" />
+        <div className={styles.textContainer}>
+          <h3 className={styles.my}>my</h3>
+          <h4 className={styles.habits}>habits</h4>
+        </div>
       </main>
     </>
   );
