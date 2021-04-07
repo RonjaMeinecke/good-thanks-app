@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <h1 className={styles.greeting1}>hello</h1>
         <h2 className={styles.greeting2}>beautiful</h2>
-        <img className={styles.shapes} src="/assets/BGShapes.svg" />
+        <img className={styles.shapes} src="/assets/shapesBG.svg" />
       </main>
     </>
   );

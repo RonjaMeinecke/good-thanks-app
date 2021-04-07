@@ -1,7 +1,8 @@
 .container {
-  min-height: 100vh;
+  height: 480vh;
   background-color: var(--app-color-blue);
   position: relative;
+  overflow: hidden;
 }
 
 .girlOnSwing {
@@ -27,4 +28,9 @@
   font-size: 2rem;
   letter-spacing: 0.2rem;
   transform: translateX(7rem) translateY(3.1rem);
+}
+
+.shapes {
+  transform: translateX(-9rem) translateY(3.1rem);
+  position: relative;
 }
