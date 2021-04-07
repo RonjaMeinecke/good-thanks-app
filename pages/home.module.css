@@ -1,4 +1,14 @@
 .container {
   min-height: 100vh;
   background-color: var(--app-color-blue);
+  position: relative;
+}
+
+.girlOnSwing {
+  transform: translateX(-0.4rem) translateY(3.1rem) rotate(2deg);
+  position: absolute;
+}
+
+.header {
+  position: relative;
 }
