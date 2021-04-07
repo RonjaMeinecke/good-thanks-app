@@ -20,6 +20,20 @@ export default function Home() {
           <div className={styles.addBtn}>
             <PlusButton primary />
           </div>
+          <form className={styles.myHabits}>
+            <input
+              type="text"
+              className={styles.makeTheBed}
+              placeholder="making the bed"
+              required
+            />
+            <input
+              type="text"
+              className={styles.inputJournal}
+              placeholder="journal"
+              required
+            />
+          </form>
         </div>
       </main>
     </>
