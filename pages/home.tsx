@@ -1,4 +1,5 @@
 import React from "react";
+import PlusButton from "../components/Buttons/PlusButton";
 import HeaderComponent from "../components/HeaderComponent/HeaderComponent";
 import styles from "./home.module.css";
 
@@ -16,6 +17,9 @@ export default function Home() {
         <div className={styles.textContainer}>
           <h3 className={styles.my}>my</h3>
           <h4 className={styles.habits}>habits</h4>
+          <div className={styles.addBtn}>
+            <PlusButton primary />
+          </div>
         </div>
       </main>
     </>
