@@ -12,3 +12,19 @@
 .header {
   position: relative;
 }
+
+.greeting1 {
+  font-family: "X_BAMBI", serif;
+  color: var(--app-color-pastelYellow);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  transform: translateX(9rem) translateY(4rem);
+}
+.greeting2 {
+  font-family: "X_BAMBI", serif;
+  font-weight: normal;
+  color: var(--app-color-pastelYellow);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  transform: translateX(7rem) translateY(3.1rem);
+}
