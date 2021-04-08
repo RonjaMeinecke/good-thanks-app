@@ -73,17 +73,18 @@
 }
 .addBtn {
   grid-area: 1 / 2 / 2 / 3;
-  transform: translateX(7rem) translateY(0.1rem);
+  transform: translateX(2rem) translateY(0.1rem);
 }
 .makeTheBed,
 .inputJournal {
   grid-area: 2 / 1 / 3 / 2;
-  font-family: "Roboto-Thin", sans-serif;
-  font-size: 0.9rem;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 0.8rem;
   color: var(--app-color-blue);
   background: transparent;
   border: none;
   border-bottom: 1.5px solid var(--app-color-blue);
   cursor: text;
+  line-height: 1.6rem;
   transform: translateX(-0.3rem) translateY(0.1rem);
 }
