@@ -1,6 +1,7 @@
 .Container {
   background-color: var(--app-color-pastelYellow);
   overflow-x: hidden;
+  overflow: auto;
   height: 100vh;
 }
 

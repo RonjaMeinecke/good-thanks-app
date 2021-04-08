@@ -1,5 +1,3 @@
-import styles from "./Header.module.css";
-
 export type HeaderProps = {
   backgroundColor: string;
   outlineColor: string;
@@ -8,7 +6,6 @@ export type HeaderProps = {
 function Header({ backgroundColor, outlineColor }: HeaderProps) {
   return (
     <svg
-      className={styles.header}
       xmlns="http://www.w3.org/2000/svg"
       width="398.392"
       height="79.627"
